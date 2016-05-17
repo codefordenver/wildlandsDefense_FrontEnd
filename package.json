@@ -6,8 +6,9 @@
     "start": "node app"
   },
   "dependencies": {
+    "angular": "*",
     "lodash": "*",
-    "angular": "*"
+    "supertest": "^1.2.0"
   },
   "devDependencies": {
     "jasmine": "*",
