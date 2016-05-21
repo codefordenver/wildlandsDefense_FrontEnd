@@ -1,0 +1,16 @@
+{
+  "name": "Wildlands-Defense-FE",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "2.2.4",
+    "angular": "1.5.5",
+    "angular-animate": "1.5.5",
+    "angular-aria": "1.5.5",
+    "angular-touch": "1.5.5",
+    "angular-messages": "1.5.5",
+    "angular-ui-router": "0.3.0",
+    "angular-locker": "2.0.4",
+    "angular-material": "1.0.9",
+    "material-design-icons": "2.2.3"
+  }
+}

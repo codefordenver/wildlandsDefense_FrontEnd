@@ -1,2 +1,8 @@
 .idea/
+www
 node_modules/
+plugins
+hooks
+src/bower_components
+platforms
+.tmp
