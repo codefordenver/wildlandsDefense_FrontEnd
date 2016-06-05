@@ -2,7 +2,7 @@
 
 ## Setup
 
-*Operating system dependancies*
+*Operating system dependencies*
 
 - [NodeJs](https://nodejs.org/) -- production is currently on 4.4.4
 - [Xcode](https://developer.apple.com/xcode/downloads/)
@@ -37,8 +37,10 @@ $  npm install -g grunt-cli
 Install project local dependancies
 
 ```shell
-$  cordova platform add ios
+$  cordova platform add browser
 ```
+
+NOTE: if you get a `Current working directory is not a Cordova-based project` error, ensure that you have a `www` folder in the root of your project. Add it manually if not, and retry.
 
 ```shell
 $  npm install
@@ -51,7 +53,7 @@ $  bower install
 ## Booting up the project
 
 ```shell
-$  grunt build:ios
+$  grunt build:browser
 ```
 
 NOTE: if you get a `simctl was not found` error from cordova, you may need to open XCode and accept a license agreement
